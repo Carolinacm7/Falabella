@@ -169,42 +169,7 @@
 
 
     </footer>
-
-    
- 
-
-    <script>
-         
-        var formulario = document.getElementById('formulario');
-        var email = formulario.email;
-        var contraseña = formulario.contraseña;
-      
-
-
-function validar(e){
-
-        if (contraseña.value.length > 10 ){
-            alert('Numero de caracteres excedido');
-        }else if(contraseña.value == ''){
-            alert('Ingrese su contraseña, pendejo :v')
-        }
-        else if(correo.value == ''){
-            alert('Ingrese su correo, pendejo :v')
-        }
-        
-        e.preventDefault();
-
-}
-
-
-         formulario.addEventListener('submit',validar);
-
-    </script>
-
-
-
-
-
+<script src="./formulario.js"></script>
 </body>
 
 </html>
