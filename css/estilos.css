@@ -49,6 +49,10 @@ header nav a{
 header nav a:hover{
     text-decoration: underline;
 }
+.slider-portada{
+background-image: url(../img/tecnology.jpg);
+background-size: cover;}
+
 
 .banco{
     opacity: 1;
@@ -345,9 +349,12 @@ footer div a:hover{
     flex-direction: row;
     cursor: pointer;
 }
+.slider-portada-two{
+    background-image: url(../img/kids.jpg);
+    background-size: cover;
+}
 
-
-.slider-portada2{
+.slider-portada-two{
     width: 95%;
     height: 380px;
     margin: auto;
@@ -359,7 +366,7 @@ footer div a:hover{
 
 }
 
-.slider-portada2 img{
+.slider-portada-two img{
     position: absolute;
     top: 0;
     left: 0;
@@ -371,13 +378,13 @@ footer div a:hover{
     
 }
 
-.slider-portada2 input[type="radio"]{
+.slider-portada-two input[type="radio"]{
     position: relative;
     z-index: 100;
     margin: 10px;
 }
 
-.slider-portada2 input[type="radio"]:checked ~ img{
+.slider-portada-two input[type="radio"]:checked ~ img{
     opacity: 1;
 }
 .tim{
